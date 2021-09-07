@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* import TypeBasic from "./typescript/TypeBasic" */
 
-function App() {
+import CounterHook from "./components/Counter-Hooks"
+
+/* import Counter from "./components/Counter" */
+
+/* import Functions from "./typescript/Functions" */
+
+/* import ObjectLiteral from "./typescript/ObjectLiteral" */
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mt-2'>
+      <h1>Introduction a TS react</h1>
+      <hr />
+      {/* <TypeBasic /> */}
+      {/* <ObjectLiteral /> */}
+      {/* <Functions /> */}
+      {/* <Counter /> */}
+      <CounterHook />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
